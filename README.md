@@ -2,8 +2,13 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/sandeepmistry/bleno?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-
 A Node.js module for implementing BLE (Bluetooth Low Energy) peripherals.
+
+This has breaking changes from the original bleno project. TODO: change the name?
+
+Local changes from original bleno project (only tested using linux hci sockets):
+* Allow a single peripheral to connect to multiple centrals.
+* Exposing HCI layer to allow vendor specific commands to be sent to bluetooth chips 
 
 Need a BLE central module? See [noble](https://github.com/sandeepmistry/noble).
 
